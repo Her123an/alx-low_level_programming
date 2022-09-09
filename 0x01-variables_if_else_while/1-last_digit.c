@@ -1,62 +1,56 @@
-#include <stdlib.h>                                                                                                                     
-
-#include <time.h>                                                                                                                       
-
-#include <stdio.h>                                                                                                                      
-
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**                                                                                                                                     
 
-* main - print if number is positive, zero, or negative                                                                                 
+* main - prints random number to variable                                                                                               
 
 *                                                                                                                                       
 
-* Description: using the main function                                                                                                  
+* Return: always (successful)                                                                                                           
 
-* this program prints "programming is positive, zero, or negative                                                                       
-
-*Return: 0                                                                                                                              
+*/                                                                                                                                      
 
 int main(void)                                                                                                                          
 
 {                                                                                                                                       
 
-int n;                                                                                                                                  
+  int n;                                                                                                                                
 
-int 1;                                                                                                                                  
-
-                                                                                                                                        
-
-srand(time(0));                                                                                                                         
-
-n = rand() - RAND_MAX / 2 
-
-    /* your code goes there */                                                                                                              
-
-1 = n% 10;                                                                                                                              
+  char last[] = "Last digit of";                                                                                                        
 
                                                                                                                                         
 
-if (1>5)                                                                                                                                
+   srand(time(0));                                                                                                                      
+
+    n = rand() - RAND_MAX / 2;                                                                                                          
+
+     printf("%s %d is %d and is" , last ,n ,n % 10);                                                                                    
+
+     if (n % 10 > 5)                                                                                                                    
 
 {                                                                                                                                       
 
-         printf("Last digit of %d is %d and is greater than 5\n", n, 1);                                                                
+           printf("greater than 5\n");                                                                                                  
 
 }                                                                                                                                       
 
-else if (1 == 0)                                                                                                                        
+else if (n % 10 == 0)                                                                                                                   
 
 {                                                                                                                                       
 
-          printf("Last digit of %d and is 0\n", n, 1);                                                                                  
+   printf("0\n");                                                                                                                       
 
 }                                                                                                                                       
 
-else       
+else                                                                                                                                    
+
 {                                                                                                                                       
 
-         printf("Last digit of %d and is less than 6 and not 0\n", n, 1);                                                               
+    printf("less than 6 and not 0\n");                                                                                                  
 
 }                                                                                                                                       
 
-return (0);  
+return (0);                                                                                                                             
+
+}        
