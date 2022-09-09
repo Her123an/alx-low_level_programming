@@ -42,4 +42,5 @@ ast digit of the number stored in the variable n.[source code here]
 
                                                                                                                                         
 
-9.Write a program that prints all possible combinations of single-digit numbers.  
+9.Write a program that prints all possible combinations of single-digit numbers.                                                        
+
