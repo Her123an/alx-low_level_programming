@@ -24,7 +24,7 @@ int main(void)
 
     q = 'q';
 
-for (Low = 'a'; low <= 'z'; Low++)
+for (Low = 'a'; Low <= 'z'; Low++)
 
 {
 
